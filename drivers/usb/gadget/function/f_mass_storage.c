@@ -2872,7 +2872,7 @@ static DEVICE_ATTR_RW(file);
 static DEVICE_ATTR_RW(cdrom);
 static DEVICE_ATTR(perf, 0644, fsg_show_perf, fsg_store_perf);
 
-static struct device_attribute dev_attr_ro_cdrom = __ATTR_RO(ro);
+//static struct device_attribute dev_attr_ro_cdrom = __ATTR_RO(ro);
 static struct device_attribute dev_attr_file_nonremovable = __ATTR_RO(file);
 
 
